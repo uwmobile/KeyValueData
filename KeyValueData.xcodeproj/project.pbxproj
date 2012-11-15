@@ -19,8 +19,10 @@
 		F55EF35A1654868B00AAFC9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F55EF3591654868B00AAFC9F /* Default-568h@2x.png */; };
 		F55EF35D1654868B00AAFC9F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55EF35B1654868B00AAFC9F /* MainStoryboard.storyboard */; };
 		F55EF3601654868B00AAFC9F /* KeyValueData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F55EF35E1654868B00AAFC9F /* KeyValueData.xcdatamodeld */; };
-		F55EF3631654868B00AAFC9F /* KVDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55EF3621654868B00AAFC9F /* KVDMasterViewController.m */; };
-		F55EF3661654868B00AAFC9F /* KVDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55EF3651654868B00AAFC9F /* KVDDetailViewController.m */; };
+		F55EF36E1654874A00AAFC9F /* KVCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = F55EF36D1654874A00AAFC9F /* KVCoreData.m */; };
+		F55EF3711654881A00AAFC9F /* KVDDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F55EF3701654881A00AAFC9F /* KVDDictionary.m */; };
+		F55EF37416549A6700AAFC9F /* KVDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55EF37316549A6700AAFC9F /* KVDTestViewController.m */; };
+		F55EF37816549DA800AAFC9F /* testPic.png in Resources */ = {isa = PBXBuildFile; fileRef = F55EF37716549DA800AAFC9F /* testPic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +42,13 @@
 		F55EF3591654868B00AAFC9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F55EF35C1654868B00AAFC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F55EF35F1654868B00AAFC9F /* KeyValueData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyValueData.xcdatamodel; sourceTree = "<group>"; };
-		F55EF3611654868B00AAFC9F /* KVDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVDMasterViewController.h; sourceTree = "<group>"; };
-		F55EF3621654868B00AAFC9F /* KVDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVDMasterViewController.m; sourceTree = "<group>"; };
-		F55EF3641654868B00AAFC9F /* KVDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVDDetailViewController.h; sourceTree = "<group>"; };
-		F55EF3651654868B00AAFC9F /* KVDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVDDetailViewController.m; sourceTree = "<group>"; };
+		F55EF36C1654874A00AAFC9F /* KVCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCoreData.h; sourceTree = "<group>"; };
+		F55EF36D1654874A00AAFC9F /* KVCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCoreData.m; sourceTree = "<group>"; };
+		F55EF36F1654881A00AAFC9F /* KVDDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDDictionary.h; sourceTree = "<group>"; };
+		F55EF3701654881A00AAFC9F /* KVDDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDDictionary.m; sourceTree = "<group>"; };
+		F55EF37216549A6700AAFC9F /* KVDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDTestViewController.h; sourceTree = "<group>"; };
+		F55EF37316549A6700AAFC9F /* KVDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDTestViewController.m; sourceTree = "<group>"; };
+		F55EF37716549DA800AAFC9F /* testPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testPic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +100,15 @@
 				F55EF3521654868B00AAFC9F /* KVDAppDelegate.h */,
 				F55EF3531654868B00AAFC9F /* KVDAppDelegate.m */,
 				F55EF35B1654868B00AAFC9F /* MainStoryboard.storyboard */,
-				F55EF3611654868B00AAFC9F /* KVDMasterViewController.h */,
-				F55EF3621654868B00AAFC9F /* KVDMasterViewController.m */,
-				F55EF3641654868B00AAFC9F /* KVDDetailViewController.h */,
-				F55EF3651654868B00AAFC9F /* KVDDetailViewController.m */,
 				F55EF35E1654868B00AAFC9F /* KeyValueData.xcdatamodeld */,
+				F55EF36C1654874A00AAFC9F /* KVCoreData.h */,
+				F55EF36D1654874A00AAFC9F /* KVCoreData.m */,
+				F55EF36F1654881A00AAFC9F /* KVDDictionary.h */,
+				F55EF3701654881A00AAFC9F /* KVDDictionary.m */,
 				F55EF34A1654868B00AAFC9F /* Supporting Files */,
+				F55EF37216549A6700AAFC9F /* KVDTestViewController.h */,
+				F55EF37316549A6700AAFC9F /* KVDTestViewController.m */,
+				F55EF37716549DA800AAFC9F /* testPic.png */,
 			);
 			path = KeyValueData;
 			sourceTree = "<group>";
@@ -176,6 +184,7 @@
 				F55EF3581654868B00AAFC9F /* Default@2x.png in Resources */,
 				F55EF35A1654868B00AAFC9F /* Default-568h@2x.png in Resources */,
 				F55EF35D1654868B00AAFC9F /* MainStoryboard.storyboard in Resources */,
+				F55EF37816549DA800AAFC9F /* testPic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +198,9 @@
 				F55EF3501654868B00AAFC9F /* main.m in Sources */,
 				F55EF3541654868B00AAFC9F /* KVDAppDelegate.m in Sources */,
 				F55EF3601654868B00AAFC9F /* KeyValueData.xcdatamodeld in Sources */,
-				F55EF3631654868B00AAFC9F /* KVDMasterViewController.m in Sources */,
-				F55EF3661654868B00AAFC9F /* KVDDetailViewController.m in Sources */,
+				F55EF36E1654874A00AAFC9F /* KVCoreData.m in Sources */,
+				F55EF3711654881A00AAFC9F /* KVDDictionary.m in Sources */,
+				F55EF37416549A6700AAFC9F /* KVDTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
